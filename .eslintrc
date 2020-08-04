@@ -1,0 +1,47 @@
+{
+    "extends": [
+        "standard",
+        "plugin:vue/recommended"
+    ],
+    "parserOptions": {
+        "parser": "babel-eslint",
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    },
+    "globals": {
+        "Vue": false,
+        "jQuery": false,
+        "axios": false,
+        "swal": false,
+        "$": false,
+        "_": false
+    },
+    "rules": {
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": 0,
+        "vue/require-prop-types": 0,
+        "vue/require-default-prop": 0,
+        "indent": [
+            "error",
+            4
+        ],
+        "space-before-function-paren": [
+            "error",
+            {
+                "anonymous": "never",
+                "named": "never",
+                "asyncArrow": "always"
+            }
+        ],
+        "comma-dangle": [
+            "error",
+            "only-multiline"
+        ]
+    },
+    "plugins": [
+        "vue"
+    ]
+}
