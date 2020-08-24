@@ -17,6 +17,7 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
         "prettus/l5-repository": "^2.6",
+        "spatie/laravel-fractal": "^5.7",
         "tightenco/ziggy": "^0.9.4"
     },
     "require-dev": {
